@@ -38,6 +38,13 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .output {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+}
 </style>
 
 </html>
