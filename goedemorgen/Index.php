@@ -33,18 +33,23 @@
 </body>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
     body {
         background-image: url('<?php echo $url; ?>');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .output {
-        margin: auto;
-        width: 50%;
-        border: 3px solid green;
-        padding: 10px;
-}
+    #output {
+        font-family: 'Pacifico', cursive;
+        color: white;
+        font-size: 200%;
+        width: 250px;
+        position: relative;
+        left: 44%;
+        top: 250px;
+    }
 </style>
 
 </html>
