@@ -4,7 +4,7 @@
 <body>
 
     <?php
-    $input = array(1, 2, 3, 4);
+    $input = array(1, 2, 3, 4, 6, 7, 13, 12);
     function evenCmp($input)
     {
         return !($input & 1);
