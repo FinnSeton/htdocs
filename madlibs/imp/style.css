@@ -1,0 +1,53 @@
+.error {
+    color: #FF0000;
+}
+
+body {
+    background-color: #F2F2F2;
+    text-align: center;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.items {
+    padding: 10px;
+    background: #8d0000;
+    place-self: center;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.Button {
+    border: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #0066CC;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    background-color: #004499;
+}
+
+.form {
+    text-align: left;
+}
